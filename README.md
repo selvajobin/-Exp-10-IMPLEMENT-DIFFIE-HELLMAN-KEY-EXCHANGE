@@ -6,13 +6,19 @@ language.
 ## ALGORITHM:
 
 STEP-1: Both Alice and Bob shares the same public keys g and p.
+
 STEP-2: Alice selects a random public key a.
+
 STEP-3: Alice computes his secret key A as g a mod p.
+
 STEP-4: Then Alice sends A to Bob.
+
 STEP-5: Similarly Bob also selects a public key b and computes his secret key as
 B and sends the same back to Alice.
+
 STEP-6: Now both of them compute their common secret key as the other
 one’s secret key power of a mod p.
+
 ## PROGRAM:
 ```c
 #include <stdio.h>
@@ -79,7 +85,8 @@ int main() {
 
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/435d7592-7218-43f4-9b3b-01a3252e2699)
+![image](https://github.com/user-attachments/assets/2a6d09e5-fb47-4046-a97f-157586af5716)
+
 
 
 ## RESULT:
